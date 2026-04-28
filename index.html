@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botafogo FR - Oficial</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Botafogo1.css">
+</head>
+<body>
+
+    <!-- NAVBAR Bootstrap responsiva com hamburger automático -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar-principal">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="Imagens/botafogo.png" alt="Botafogo" width="36" class="me-2">
+                Botafogo FR
+            </a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-controls="menuNav" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#idolos">Ídolos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">Vídeo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tabela">Títulos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER / HERO -->
+    <header id="home" class="text-center py-5">
+        <div class="container">
+            <img src="Imagens/escudo botafogo - Copia.jpg" alt="Escudo do Botafogo" class="escudo mb-4">
+            <h1 class="display-3 fw-bold text-uppercase border-bottom border-white pb-2 d-inline-block">Botafogo</h1>
+            <h2 class="fs-4 text-white-50 mt-2">O Glorioso</h2>
+            <p class="lead mx-auto mt-3" style="max-width:680px;">
+                O Botafogo de Futebol e Regatas é um dos clubes mais tradicionais do Brasil,
+                conhecido pela sua estrela solitária e sua torcida apaixonada.
+            </p>
+            <a href="https://www.botafogo.com.br/" target="_blank" class="btn btn-light btn-lg fw-bold text-uppercase mt-3 px-5">
+                Saiba Mais
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HISTÓRIA -->
+        <section id="historia" class="py-5">
+            <div class="container text-center">
+                <h2 class="section-title">História e Tradição</h2>
+                <p class="mx-auto" style="max-width:700px;">
+                    Desde 1894 nos mares e desde 1904 nos gramados. Uma trajetória marcada por ídolos eternos
+                    como Garrincha, Nilton Santos e Jairzinho.
+                </p>
+            </div>
+        </section>
+
+        <!-- ÍDOLOS — Bootstrap Cards + Grid responsivo -->
+        <section id="idolos" class="py-5">
+            <div class="container text-center">
+                <h2 class="section-title">Maiores Ídolos</h2>
+                <div class="row justify-content-center g-4 mt-2">
+
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card card-idolo h-100">
+                            <a href="https://pt.wikipedia.org/wiki/Garrincha" target="_blank">
+                                <img src="Imagens/garrincha.jpg" class="card-img-top idolo-img" alt="Garrincha">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold fs-5">Garrincha</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card card-idolo h-100">
+                            <a href="https://pt.wikipedia.org/wiki/Nilton_Santos" target="_blank">
+                                <img src="Imagens/nilton.jpg" class="card-img-top idolo-img" alt="Nilton Santos">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold fs-5">Nilton Santos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card card-idolo h-100">
+                            <a href="https://pt.wikipedia.org/wiki/Jairzinho" target="_blank">
+                                <img src="Imagens/jairzinho.jpg" class="card-img-top idolo-img" alt="Jairzinho">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold fs-5">Jairzinho</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- VÍDEO -->
+        <section id="video" class="py-5">
+            <div class="container text-center">
+                <h2 class="section-title">Temporada 2024 🔥</h2>
+                <p class="mx-auto" style="max-width:680px;">
+                    Reviva os melhores momentos do Botafogo na Libertadores 2024: gols, jogadas incríveis
+                    e a emoção da torcida alvinegra em uma temporada marcante.
+                </p>
+                <div class="ratio ratio-16x9 mx-auto mt-3" style="max-width:700px;">
+                    <video controls class="rounded shadow">
+                        <source src="videos/Botafogo momentos.mp4" type="video/mp4">
+                        <track src="videos/legenda.vtt" kind="subtitles" srclang="pt" label="Português" default>
+                    </video>
+                </div>
+                <p class="legenda fst-italic text-white-50 mt-3">
+                    🎥 Highlights do Botafogo na Libertadores 2024 — raça, tradição e paixão em campo.
+                </p>
+            </div>
+        </section>
+
+        <!-- TÍTULOS — Bootstrap Table responsiva -->
+        <section id="tabela" class="py-5">
+            <div class="container text-center">
+                <h2 class="section-title">Títulos Importantes</h2>
+                <div class="table-responsive mt-4">
+                    <table class="table table-dark table-bordered table-hover mx-auto" style="max-width:600px;">
+                        <thead class="table-light text-dark">
+                            <tr>
+                                <th>Ano</th>
+                                <th>Competição</th>
+                                <th>Resultado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1995</td>
+                                <td>Brasileirão</td>
+                                <td>Campeão</td>
+                            </tr>
+                            <tr>
+                                <td>2010</td>
+                                <td>Carioca</td>
+                                <td>Campeão</td>
+                            </tr>
+                            <tr>
+                                <td>2024</td>
+                                <td>Brasileirão e Libertadores</td>
+                                <td>Campeão</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO — Bootstrap Form responsivo -->
+        <section id="contato" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Fale com o Clube</h2>
+                <form class="mx-auto mt-4 p-4 rounded form-contato" style="max-width:540px;">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold">Nome:</label>
+                        <input type="text" class="form-control form-dark" id="nome" name="nome"
+                               placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">E-mail:</label>
+                        <input type="email" class="form-control form-dark" id="email" name="email"
+                               placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label fw-bold">Mensagem:</label>
+                        <textarea class="form-control form-dark" id="mensagem" name="mensagem" rows="4"
+                                  placeholder="Como podemos ajudar, torcedor?" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-light btn-lg fw-bold text-uppercase">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-2 fw-bold">Siga o Glorioso:</p>
+            <div class="social-links mb-3">
+                <a href="https://www.facebook.com/Botafogo" target="_blank" class="me-2">Facebook</a>
+                <span class="text-white-50">|</span>
+                <a href="https://www.instagram.com/botafogo/" target="_blank" class="mx-2">Instagram</a>
+                <span class="text-white-50">|</span>
+                <a href="https://twitter.com/Botafogo" target="_blank" class="ms-2">Twitter/X</a>
+            </div>
+            <p class="text-white-50 mb-0">&copy; 2026 Botafogo FR - A Estrela que nos Guia.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (necessário para o menu hambúrguer) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

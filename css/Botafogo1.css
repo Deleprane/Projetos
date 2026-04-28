@@ -1,0 +1,137 @@
+/* ===== TEMA BOTAFOGO — complementa o Bootstrap ===== */
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+#navbar-principal {
+    background-color: #111111;
+    border-bottom: 2px solid #ffffff;
+}
+
+#navbar-principal .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+#navbar-principal .nav-link:hover {
+    color: #aaaaaa;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 80px 0 60px;
+}
+
+.escudo {
+    width: 160px;
+    height: auto;
+    filter: drop-shadow(0 0 12px rgba(255,255,255,0.25));
+}
+
+/* Títulos de seção */
+.section-title {
+    color: #cccccc;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Seções alternadas */
+section {
+    border-top: 1px solid #1a1a1a;
+}
+
+/* Cards dos ídolos */
+.card-idolo {
+    background-color: #111111;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-idolo:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.idolo-img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Vídeo */
+#video .ratio video {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+/* Tabela */
+.table-dark {
+    --bs-table-bg: #111;
+    --bs-table-border-color: #ffffff;
+}
+
+/* Formulário */
+.form-contato {
+    background-color: #111111;
+    border: 1px solid #333;
+}
+
+.form-dark {
+    background-color: #222 !important;
+    border-color: #444 !important;
+    color: #ffffff !important;
+}
+
+.form-dark::placeholder {
+    color: #888;
+}
+
+.form-dark:focus {
+    background-color: #2a2a2a !important;
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.15) !important;
+    color: #fff !important;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #222;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #aaaaaa;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.8;
+    color: #dddddd;
+}
+
+/* Botões */
+.btn-light {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border-color: #333333 !important;
+}
